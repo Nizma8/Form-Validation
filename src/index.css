@@ -1,3 +1,7 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&family=Dai+Banna+SIL:wght@300&family=Dancing+Script&family=Fjalla+One&family=Flow+Circular&family=Inter&family=Lato:wght@300&family=Lora:ital@1&family=Merriweather:ital@1&family=Noto+Sans+JP:wght@300;400&family=Noto+Serif+Vithkuqi:wght@400;500;700&family=Nunito+Sans:wght@200&family=Open+Sans:wght@300&family=Oswald&family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@500&family=Playfair:wght@300;400&family=Roboto+Condensed:ital,wght@0,400;1,300&family=Roboto+Slab:wght@400;500&family=Roboto:wght@300&family=Satisfy&family=Tektur&family=Titillium+Web:wght@300&family=Ubuntu&family=Ysabeau+SC:wght@100;200&display=swap');
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,9 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }

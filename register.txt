@@ -1,0 +1,14 @@
+ strong password.
+   -Password must be greater than 8 characters in length.
+    Password must contain at least one uppercase character.
+    Password must contain at least one lowercase character.
+    Password must contain at least one digit.
+    Password must contain at least one special character.
+
+first name of anyone can never be an empty string,
+ the password which has been created by the user can not be an empty string, etc.
+
+ onBlur- click and leave(onBlur: A FocusEvent handler function. Fires when an element lost focus. Unlike the built-in browser blur event, in React the onBlur event bubbles.)
+ onFocus- click   
+
+ 

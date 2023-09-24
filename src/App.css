@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
+input{
+  width: 75%;
+
+}
+form{
+  margin-left: 110px;
+}
+label{
+  font-family: 'PT Serif', serif;
+        font-size: 20px;
+}
+button{
+  font-family: 'Playfair Display', serif;
+}
+input:focus-visible {
+  outline: 3px solid #800080;
+  border-radius: 3px;
+}
+button:focus-visible{
+  outline: 3px solid rgb(253, 253, 253);
+
+}
+.head{
+  font-family: 'Oswald', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  form label::before{
+    content: "*";
+    color: red;
+    margin-right: 5px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
